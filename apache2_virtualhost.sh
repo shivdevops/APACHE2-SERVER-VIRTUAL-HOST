@@ -25,6 +25,7 @@ cat > /etc/apache2/sites-available/$confname.conf <<EOF
         ServerAdmin webmaster@localhost
         ServerName $domainname
         ServerAlias www.$domainname
+        Redirect  / https://www.$domainname
         DocumentRoot $directorypath$domainname
 
 
@@ -98,5 +99,5 @@ echo "virtual host conf path: /etc/apache2/sites-available/$confname.conf"
 echo
 echo "Directory Root or Path and Directory Name for you domain: $directorypath$domainname"
 echo
-echo "check in your browser by:https://$domainname or check in your browser by:http://$domainname"
+echo "check in your browser by:$domainame or by:https://$domainname or by:http://$domainname"
 echo
