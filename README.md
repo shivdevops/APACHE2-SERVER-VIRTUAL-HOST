@@ -11,3 +11,9 @@
 
      ` ` ` sudo ./apache2_virtualhost.sh ` ` `
 
+
+## Prerequistes:
+
+* Ubuntu OS.
+* Web Server apache2
+* Apache2-LAMP installation link: https://github.com/shivdevops/LAMP-INSTALLATION-SHELL-SCRIPT
