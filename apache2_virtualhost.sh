@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # provide the root directory path (eg:/var/www/html/ or /opt/vhost/)
-ROOT_DIRECTORY_PATH="your root directory path"
+ROOT_DIRECTORY_PATH="your-root-directory-path"
 
 #provide apache2 virtual host conf name
-APACHE2_CONF_NAME="your-name"
+APACHE2_CONF_NAME="your-conf-name"
 
 #provide your domain name i.e domain.com domain.in etc 
-DOMAIN_NAME="your=domain"
+DOMAIN_NAME="your-domain-name"
 
 #provide your ssl pem file path fully
 SSL_PEM="your-ssl-pem-file-path"
